@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1420" height="803" viewBox="0 0 1420 803">
+  <defs>
+    <clipPath id="clip-banner-bg">
+      <rect width="1420" height="803"/>
+    </clipPath>
+  </defs>
+  <g id="banner-bg" clip-path="url(#clip-banner-bg)">
+    <rect width="1420" height="803" fill="#fff"/>
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="1468" height="745" transform="translate(-42)"/>
+    <ellipse id="Ellipse_24" data-name="Ellipse 24" cx="136" cy="142" rx="136" ry="142" transform="translate(-42 665)" fill="#fff"/>
+    <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="134.5" cy="142" rx="134.5" ry="142" transform="translate(173 638)" fill="#fff"/>
+    <ellipse id="Ellipse_26" data-name="Ellipse 26" cx="136" cy="142" rx="136" ry="142" transform="translate(392 665)" fill="#fff"/>
+    <ellipse id="Ellipse_27" data-name="Ellipse 27" cx="135.5" cy="142" rx="135.5" ry="142" transform="translate(593 573)" fill="#fff"/>
+    <ellipse id="Ellipse_28" data-name="Ellipse 28" cx="136" cy="142" rx="136" ry="142" transform="translate(776 612)" fill="#fff"/>
+    <ellipse id="Ellipse_29" data-name="Ellipse 29" cx="135" cy="142" rx="135" ry="142" transform="translate(967 665)" fill="#fff"/>
+    <ellipse id="Ellipse_30" data-name="Ellipse 30" cx="136" cy="142" rx="136" ry="142" transform="translate(1170 612)" fill="#fff"/>
+  </g>
+</svg>
