@@ -5236,3 +5236,243 @@ only screen and (min-width:1400px) {
     color: #FFCC00;
     background-color: transparent;
 }
+
+.icon-boxes {
+    padding: 100px 50px;
+}
+
+.icon-boxes .icon-box .konten {
+    padding: 25px 30px;
+}
+
+.icon-boxes .icon-box {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.icon-boxes .icon {
+    margin: 0 auto 20px auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.icon-boxes .image-service img {
+    display: inline-block;
+    text-align: center;
+}
+
+.icon-boxes .icon i {
+    font-size: 36px;
+    line-height: 1;
+    color: #f6b024;
+}
+
+.icon-boxes .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.icon-boxes .title a {
+    color: #05579e;
+}
+
+.icon-boxes .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+    color: #777777;
+}
+
+.porto {
+    background-color: #f4f7fa;
+    position: relative;
+    padding-bottom: 180px
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .porto {
+        padding-bottom: 120px
+    }
+}
+
+@media(max-width:767px) {
+    .porto {
+        padding-bottom: 100px
+    }
+}
+
+.porto .portofolio-slider {
+    margin: 0
+}
+
+.porto .tns-nav {
+    text-align: center;
+    position: absolute;
+    bottom: 90px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+    left: 50%;
+    z-index: 9;
+    margin: 0
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .porto .tns-nav {
+        bottom: 55px
+    }
+}
+
+@media(max-width:767px) {
+    .porto .tns-nav {
+        bottom: 50px
+    }
+}
+
+.porto .tns-nav button {
+    height: 6px;
+    width: 14px;
+    background-color: #081828;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    margin: 0 5px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease
+}
+
+.porto .tns-nav button:hover {
+    background-color: #FFCC00
+}
+
+.porto .tns-nav button.tns-nav-active {
+    width: 25px;
+    background-color: #FFCC00
+}
+
+.porto .single-portofolio {
+    background-color: #fff;
+    /* padding: 50px 40px; */
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 15px 0
+}
+
+.porto .single-portofolio:hover {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .103);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .103)
+}
+
+.porto .single-portofolio::before {
+    position: absolute;
+    content: "";
+    right: -30px;
+    top: -30px;
+    height: 60px;
+    width: 60px;
+    background-color: #FFCC00;
+    border-radius: 50%
+}
+
+@media(max-width:767px) {
+    .porto .single-portofolio {
+        padding: 50px 40px
+    }
+}
+
+.porto .single-portofolio .text h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .porto .single-portofolio .text h4 {
+        bottom: 55px
+    }
+}
+
+@media(max-width:767px) {
+    .porto .single-portofolio .text h4 {
+        font-size: 15px;
+        line-height: 28px
+    }
+}
+
+.porto .single-portofolio .author {
+    position: relative;
+    padding: 30px 25px 60px 25px;
+}
+
+.porto .single-portofolio .detailporto {
+    position: relative;
+    padding: 25px;
+}
+
+.porto .single-portofolio .detailporto h4 {
+    font-size: 15px;
+    font-weight: 600
+}
+
+.porto .single-portofolio .detailporto h4 span {
+    color: #727272;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 6px
+}
+
+.porto .single-portofolio img {
+    height: 100%;
+    width: 100%;
+}
+
+.porto .single-portofolio .author h4 {
+    font-size: 15px;
+    font-weight: 600
+}
+
+.porto .single-portofolio .author h4 span {
+    color: #727272;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 6px
+}
+
+.porto .single-portofolio .quote-icon i {
+    font-size: 45px;
+    color: #FFCC00;
+    position: absolute;
+    opacity: .1;
+    right: 40px;
+    bottom: 50px
+}
+
+.btn-porto {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 14px 30px;
+    background-color: #FFCC00;
+    color: #000;
+    border: none;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    margin-right: 7px;
+    overflow: hidden;
+    margin-top: 50px;
+}
